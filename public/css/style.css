@@ -1,0 +1,18 @@
+/* Mengatur background website */
+body{
+    background-color: #f5f5f5;
+}
+
+/* Mengatur judul */
+h1{
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* Mengatur card artikel */
+.card-post{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

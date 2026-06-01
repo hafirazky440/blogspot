@@ -10,17 +10,15 @@ class PostController {
         $this->post = new Post($db);
     }
 
-    // Ambil semua artikel
     public function index() {
         return $this->post->getAllPosts();
     }
 
-    // Ambil detail artikel
     public function show($id) {
         return $this->post->getPostById($id);
     }
 
-    // Tambah artikel
+    
     public function store($title, $content) {
         return $this->post->createPost($title, $content);
     }
